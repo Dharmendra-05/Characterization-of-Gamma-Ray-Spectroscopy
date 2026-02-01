@@ -1,0 +1,15 @@
+# Matrix Projection Script for Gamma-Gamma Analysis
+# Reference: BINDAS Software
+
+> INPUT start
+> INPUT ipath /data/In_ng/events
+> INPUT opath /data/In_ng/calibrated_spks
+> INPUT cname In_ng_40MW_VECC_06Feb25
+> INPUT run 2, 6, 7
+> INPUT end
+
+> MATRIX start
+> MATRIX cond all v all
+> MATRIX fmatrix
+> MATRIX save spn matrix_EuBa_Eff.spn
+> MATRIX end
